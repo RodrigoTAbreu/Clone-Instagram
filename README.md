@@ -1,2 +1,2 @@
 # Clone-Instagram
-Clone da Página do Instagram - Aplicando conceitos CSS Flex Box
+Clone da Página do Instagram - BootCamp da Digital Innovation One
