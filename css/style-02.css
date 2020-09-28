@@ -27,12 +27,12 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
-    
+        
 }
 .instagram-phone img{
     height: 40rem;
-    
-
+    margin-top: 2em;
+    margin-right: 2;
 }
 .instagram-continue{
     display: flex;
@@ -41,6 +41,45 @@ body{
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
+}
+
+.name{
+    border-color:#EBEBEC;
+    margin-bottom: 5px;
+    border-style: solid;
+    width: 230px;
+    height: 28px;
+    font-size: 9px;
+
+}
+
+
+::-webkit-input-placeholder {
+   color: rgb(168, 173, 175);
+   font: 12px verdana, arial, sans-serif;
+}
+
+:-moz-placeholder {
+   color:rgb(168, 173, 175);
+   font: 12px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+   color: rgb(168, 173, 175); 
+   font: 12px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color:rgb(168, 173, 175);
+   font: 12px verdana, arial, sans-serif;
+}
+.password{
+    border-color: #EBEBEC;
+    border-style: solid;
+    width: 230px;
+    height: 28px;
+    font-size: 9px;
+
 }
 .alternar{
     color: #B1A2AE;
@@ -67,14 +106,19 @@ body{
     align-items: center;
     flex-direction: column; /*deixando o eixo x e y ao contrario */ 
     background-color: #fffffF;
-    width: 100%;
+    width: 70%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
     margin-top: 10px;
+    margin-left: 5px;
 }
 .group:nth-child(1){ /*um seletor de css que pega os filhos do elemento, pegando pela ordem em que foram inseridos */
     min-height: 19rem;
 
+}
+.linha {
+   
+    
 }
 .instagram-logo{
     height: 3rem;
@@ -91,15 +135,19 @@ body{
 
 }
 .instagram-login{
-    background-color: #0095f6;
+    background-color: #57c1dbec;
     color:#ffffff ;
     padding: 8px;
     border-radius: 4px;
+    width: 230px;
+    text-align: center;
 }
+
 .instagram-logout{
     color: #0095f6;
     margin-top: 1rem;
 }
+.insta
 .not-account{
     color: rgb(160,160,160) ;
 
@@ -115,6 +163,7 @@ body{
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0 ;
+    color: gray;
 
 }
 .download{
@@ -126,6 +175,7 @@ body{
 
 }
 .app-download{
+    
     height: 3rem;
     width: 10rem;
     background-size: cover;
